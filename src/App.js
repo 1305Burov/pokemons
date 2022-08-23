@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import { PokeCard } from "./components/PokeCard/PokeCard";
+import { RenderMainPage } from "./components/RenderMainPage/RenderMainPage";
+import { TypesPoke } from "./components/TypesPoke/TypesPoke";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export function App() {
+    return (
+
+        <Routes>
+            <Route path="/" element={ <RenderMainPage /> } />
+            <Route path="/pokemon/:pokemonId" element={ <PokeCard /> } />
+            <Route path="/type/:typeId" element={ <TypesPoke /> } />
+        </Routes>
+        
+    );
 }
 
-export default App;

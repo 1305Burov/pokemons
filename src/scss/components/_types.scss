@@ -1,0 +1,120 @@
+.types {
+    &__list {
+        display: flex;
+        max-width: 100%;
+        margin: 20px 0;
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        list-style: none;
+        &__item {
+        }
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 18px;
+        text-shadow: 1px 0 1px #000, 
+            0 1px 1px #000, 
+            -1px 0 1px #000, 
+            0 -1px 1px #000;
+        color: #fff;
+        line-height: 1.5;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+
+}
+
+.normal {
+    background-color: #CA98A7;
+    border: 3px solid #74505A;
+}
+
+.fighting {
+    background-color: #EF6236;
+    border: 3px solid #9A3F25;
+}
+
+.flying {
+    background-color: #93B2C7;
+    border: 3px solid #4A677D;
+}
+
+.poison {
+    background-color: #9B69D9;
+    border: 3px solid #5D2D87;
+}
+.ground {
+    background-color: #A7702B;
+    border: 3px solid #6E491F;
+}   
+.rock {
+    background-color: #8B3E20;
+    border: 3px solid #4C1709;
+}
+.bug {
+    background-color: #3A994E;
+    border: 3px solid #1C4B27;
+}
+.ghost {
+    background-color: #906790;
+    border: 3px solid #33336B;
+}
+.steel {
+    background-color: #42BD94;
+    border: 3px solid #7E8F89;
+}
+.fire {
+    background-color: #FD4C5A;
+    border: 3px solid #AA2023;
+}
+.water {
+    background-color: #86A8FC;
+    border: 3px solid #1552E2;
+}
+.grass {
+    background-color: #27CB4D;
+    border: 3px solid #147B3D;
+}
+.electric {
+    background-color: #FBFA73;
+    border: 3px solid #E4E32C;
+}
+.psychic {
+    background-color: #F81C91;
+    border: 3px solid #A6296D;
+}
+.ice {
+    background-color: #D9EFF9;
+    border: 3px solid #86D2F5;
+}
+.dragon {
+    background-color: #62C9DA;
+    border: 3px solid #458A94;
+}
+.dark {
+    background-color: #5A5979;
+    border: 3px solid #040707;
+}
+.fairy {
+    background-color: #EA1369;
+    border: 3px solid #961944;
+}
+.unknown {
+    background-color: #1C9C88;
+    border: 3px solid #444444;
+}
+.shadow {
+    background-color: #443C60;
+    border: 3px solid #3B1631;
+}

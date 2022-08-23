@@ -1,0 +1,27 @@
+.search {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    &__input {
+        width: 40%;
+        height: 40px;
+        margin-right: 20px;
+        padding: 0 20px;
+        border: 2px solid #131313;
+        border-radius: 50px;
+        &:focus {
+            outline: 3px solid #FD4C5A;
+        }
+    }
+    &__button {
+        height: 40px;
+        width: 40px;
+        border: 2px solid #131313;
+        border-radius: 50px;
+        background: url('../../img/search-icon.svg') center no-repeat;
+        &:focus {
+            outline: 3px solid #FD4C5A;
+        }
+    }
+}
