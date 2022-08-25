@@ -1,0 +1,27 @@
+.pokeCard {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    &__image {
+        width: auto;
+        height: 180px;
+        object-fit: contain;
+    }
+
+    &__stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+        .stat {
+            &__name {
+                &::after {
+                    content: ": ";
+                }
+            }
+        }
+    }
+}

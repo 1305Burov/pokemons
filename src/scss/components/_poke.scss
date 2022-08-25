@@ -34,24 +34,4 @@
         }
     }
 
-    &__button {
-        height: 40px;
-        width: 40px;
-        border: 2px solid #131313;
-        border-radius: 50px;
-        &:focus {
-            outline: 3px solid #FD4C5A;
-        }
-    }
-
-    &__prev {
-        background: url('../../img/arrow-icon.svg') center no-repeat;
-       
-    }
-
-    &__next {
-        background: url('../../img/arrow-icon.svg') center no-repeat;
-        transform: rotate(-180deg);
-    }
-
 }

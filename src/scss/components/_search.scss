@@ -20,6 +20,7 @@
         border: 2px solid #131313;
         border-radius: 50px;
         background: url('../../img/search-icon.svg') center no-repeat;
+        cursor: pointer;
         &:focus {
             outline: 3px solid #FD4C5A;
         }

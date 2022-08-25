@@ -27,13 +27,13 @@ export const GetPokies = () => {
 
     return (
         <div className="pokes">
-            {pokes.previous && <button onClick={prev} className='pokes__button pokes__prev'></button>}    
+            {pokes.previous && <button onClick={prev} className='button button_prev'></button>}    
             <ul className="pokes__list">
                 {pokesList.map((poke, index) => {
                     return <li key={index} ><PokeLink poke={poke} /></li>
                 })}
             </ul>
-            {pokes.next && <button onClick={next} className='pokes__button pokes__next'></button>}
+            {pokes.next && <button onClick={next} className='button button_next'></button>}
         </div>
     );
 }
